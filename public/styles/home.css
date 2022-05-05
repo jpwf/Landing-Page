@@ -22,26 +22,19 @@ header{
 }
 header h1{
     font-weight: bold;
-    font-size:250%;
+    font-size:400%;
+    color: rgb(230, 214, 214);
 }
 
 header p{
-    color:white;
+    color: rgb(230, 214, 214);
     font-size:130%;
     width:100%;
     padding:1% 0%;
 }
- /* .center{
-    margin-top:2%;
-    border:0;
-    text-align: center;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center;
-    color:rgb(184, 184, 184);
-}  */
 
 form{
+    color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -71,14 +64,14 @@ form input{
 form button{
     margin-bottom:1%;
     font-weight:bold;
-    background-color:white;
+    /* background-color:white; */
     border:0.5px solid black;
     border-radius:8%;
     padding:0.5% 0.5%;
 }
-.center{
+/* .center{
     color:white;
-}
+} */
 .content{
     margin-top:1%;
     font-weight:bold;
@@ -97,6 +90,7 @@ form button{
 
 
 .content .value-questions{
+    color: rgb(230, 214, 214);
     border: 3px solid black;
     width:50%;
     /* margin-left:23%; */
@@ -122,13 +116,13 @@ footer{
     text-align:center;
     font-size:120%;
     font-weight:bold;
-    color:white;
+    color: rgb(230, 214, 214);
     text-decoration:none;
 }
 footer button{
     background:linear-gradient(to top right,yellow,rgb(248, 17, 202),rgb(90, 1, 90));
     width: 10%;
-    color:white;
+    /* color:white; */
     border-radius:10%;
     cursor:pointer;
     
