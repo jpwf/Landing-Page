@@ -5,6 +5,7 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device,initial-scale=1.0, maximum-scale=1.0"/>
         {% block styles %}
             <link rel="stylesheet" type="text/css" href="/styles/home.css"/>
         {% endblock styles %}
@@ -18,49 +19,47 @@
                 <p>O grupo da WEYDT ENTERPRISE possui insights incríveis feitos pelo nosso CEO  e criador João Pedro Weydt De Faria. Reflexões sobre a vida e trabalho que irão agregar valor à sua rotina.</p>
             </header><!--header-->
             <div class="clear"></div>
-            <div class="center">
-                <form>
-                    <fieldset>
-                        <legend>Venha participar do nosso grupo exclusivo</legend>
-                        <div class="form-name">
-                            <label for="name">Informe seu nome</label>
-                            <input id="name" >
-                        </div>
-                        <div class="form-mail">
-                            <label for="email">Informe seu melhor e-mail</label>
-                            <input id="email" >
-                        </div>
-                        <div class="form-subscribe">
-                                <button id="subscribe">QUERO ENTRAR NO GRUPO</button>
-                        </div>
-                        
-                    </fieldset>
-                </form><!--formulário-->
-                <div class="content">
-                    <video  muted autoplay loop>
-                        <source src="/video/weydt.mp4" type="video/mp4"/>
-                    </video>
-                    <div class="value-questions">
-                        <h2>PERGUNTAS FREQUENTES</h2>
-                        <h3>"O que o grupo vai agregar para mim?"</h3>
-                        <ul>
-                            <li>Nosso grupo exclusivo é recheado de insights para business e sobre a própria vida, além de diversos hacks de produtividade</li>
-                            <li>Além disso o grupo lhe oferece um network sem igual. Os participantes se constituem de: empresários, programadores e investidores</li>
-                            <li>O grupo conta também com conteúdos educacionais exclusivos para programadores.</li>
-                        </ul>
-                        <h3>"Eu não sei programar mas gostaria de começar"</h3>
-                        <p>Sem problemas, o grupo possui conteúdos para que deseja começar no mundo da programação.</p>
-                        <p>Como por exemplo:</p>
-                        <ul>
-                            <li>Conteúdos sobre lógica para programação.</li>
-                            <li>Direcionamento profissional de acordo com seus interesses.</li>
-                            <li>Dicas para melhorar seu código.</li>
-                            <li>Ideias para pequenos projetos, pois se aprende mais pondo a mão na massa.</li>                        </ul>
-                    </div><!--value-questions-->
+            
+            <div class="content">
+                <video  muted autoplay loop>
+                    <source src="/video/weydt.mp4" type="video/mp4"/>
+                </video>
+                <div class="value-questions">
+                    <h2>PERGUNTAS FREQUENTES</h2>
+                    <h3>"O que o grupo vai agregar para mim?"</h3>
+                    <ul>
+                        <li>Nosso grupo exclusivo é recheado de insights para business e sobre a própria vida, além de diversos hacks de produtividade</li>
+                        <li>Além disso o grupo lhe oferece um network sem igual. Os participantes se constituem de: empresários, programadores e investidores</li>
+                        <li>O grupo conta também com conteúdos educacionais exclusivos para programadores.</li>
+                    </ul>
+                    <h3>"Eu não sei programar mas gostaria de começar"</h3>
+                    <p>Sem problemas, o grupo possui conteúdos para que deseja começar no mundo da programação.</p>
+                    <p>Como por exemplo:</p>
+                    <ul>
+                        <li>Conteúdos sobre lógica para programação.</li>
+                        <li>Direcionamento profissional de acordo com seus interesses.</li>
+                        <li>Dicas para melhorar seu código.</li>
+                        <li>Ideias para pequenos projetos, pois se aprende mais pondo a mão na massa.</li>                        </ul>
+                </div><!--value-questions-->
+                
+            </div><!--content-->
+            <form>
+                <fieldset>
+                    <legend>Venha participar do nosso grupo exclusivo</legend>
+                    <div class="form-name">
+                        <label for="name">Informe seu nome</label>
+                        <input id="name" >
+                    </div>
+                    <div class="form-mail">
+                        <label for="email">Informe seu melhor e-mail</label>
+                        <input id="email" >
+                    </div>
+                    <div class="form-subscribe">
+                            <button id="subscribe">QUERO ENTRAR NO GRUPO</button>
+                    </div>
                     
-                </div><!--content-->
-            </div><!--center-->
-
+                </fieldset>
+            </form><!--formulário-->
             <footer>
                 <p>Em caso de dúvida, fale com nossa equipe de suporte.</p>
                 <button id="instagram">Instagram</button>
