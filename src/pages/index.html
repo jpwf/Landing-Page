@@ -5,7 +5,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device,initial-scale=1.0, maximum-scale=1.0"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0"/>
         {% block styles %}
             <link rel="stylesheet" type="text/css" href="/styles/home.css"/>
         {% endblock styles %}
@@ -30,17 +30,20 @@
                 </video>
                 <div class="value-questions">
                     <h2>PERGUNTAS FREQUENTES</h2>
-                    <h3>"O que o grupo vai agregar para mim?"</h3>
+                    <h3>"O que o grupo vai agregar para mim?"<button id="Q1"></button></h3>
+                    
                     <div class="first-question" id="hide-1">
                         <ul>
                             <li>Nosso grupo exclusivo é recheado de insights para business e sobre a própria vida, além de diversos hacks de produtividade</li>
                             <li>Além disso o grupo lhe oferece um network sem igual. Os participantes se constituem de: empresários, programadores e investidores</li>
                             <li>O grupo conta também com conteúdos educacionais exclusivos para programadores.</li>
                         </ul>
+                        <button id="close1"> fechar</button>
                     </div>
                         
-                    <h3>"Eu não sei programar mas gostaria de começar, e agora?"</h3>
-                    <div class="second-quesetion" id="hide-2">
+                    <h3>"Eu não sei programar mas gostaria de começar, e agora?" <button id="Q2"></button></h3>
+                    
+                    <div class="second-question" id="hide-2">
                         <p>Sem problemas, o grupo possui conteúdos para que deseja começar no mundo da programação.</p>
                         <p>Como por exemplo:</p>
                         <ul>
@@ -49,6 +52,7 @@
                             <li>Dicas para melhorar seu código.</li>
                             <li>Ideias para pequenos projetos, pois se aprende mais pondo a mão na massa.</li>                        
                         </ul>
+                        <button id="close2"> fechar</button>
                     </div>
                 </div><!--value-questions-->
                 
