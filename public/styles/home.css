@@ -111,7 +111,9 @@ form button{
     margin-bottom:1%;
     padding:-4% 1%;
 }
-
+#hide-1, #hide-2{
+    display:none;
+}
 
 .content .value-questions{
     color: rgb(230, 214, 214);
