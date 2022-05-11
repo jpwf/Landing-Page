@@ -112,10 +112,17 @@ form button{
     padding:-4% 1%;
 }
 #Q1, #Q2{
-    width:12px;
-    height:12px;
-    border-radius:40%;
-    border: 0;
+    width: 24px;
+    height:24px;
+    display:inline-block;
+    /* flex-direction: column; */
+    /* border-radius:40%; */
+    /* border: 0; */
+    cursor: pointer;
+    background-image: url("../images/icons8-down-arrow-24\ \(1\).png");
+    /* background-color: white; */
+}
+#close1,#close2{
     cursor: pointer;
 }
 .first-question, .second-question{
