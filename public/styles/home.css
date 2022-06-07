@@ -122,6 +122,8 @@ form button{
 }
 #close1,#close2{
     cursor: pointer;
+    display: block;
+    margin: 1% 1%;
 }
 .first-question, .second-question{
     display:none;
@@ -131,6 +133,7 @@ form button{
     color: rgb(230, 214, 214);
     border: 3px solid black;
     width:50%;
+    /* text-align: center; */
     /* margin-left:23%; */
 }
 .content .value-questions h2{
@@ -142,7 +145,7 @@ form button{
     margin-bottom:1%;
 }
 .content .value-questions ul{
-    float: left;
+    /* float: left; */
     font-size:large;
     width:80%;
     margin-left:10%;

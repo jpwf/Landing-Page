@@ -20,6 +20,7 @@ Q1_button.addEventListener("click", () =>{
     Q1_button.style.cssText ='transform: rotate(180deg);';    
     btn_close1.addEventListener("click", () => {
         hide1.classList.add("first-question")
+        Q1_button.style.cssText ='transform: rotate(initial);';
     })
 })
 Q2_button.addEventListener("click", ()=>{
@@ -28,7 +29,8 @@ Q2_button.addEventListener("click", ()=>{
     Q2_button.style.cssText ='transform: rotate(180deg);';
     Q1_button.style.cssText ='transform: rotate(initial);';
     btn_close2.addEventListener("click", () => {
-        hide12.classList.add("second-question")
+        hide2.classList.add("second-question")
+        Q2_button.style.cssText ='transform: rotate(180deg);';    
     })
 
 })
