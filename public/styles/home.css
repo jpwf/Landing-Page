@@ -22,20 +22,17 @@ header{
     /* margin-left:25%; */
 }
 #instagram{
-    
     float: right;
-    background:linear-gradient(to top right,yellow,rgb(248, 17, 202),rgb(90, 1, 90));
-    /* width: 10%; */
-    /* color:white; */
-    border-radius:10%;
-    cursor:pointer;
+    background-color: rgb(3, 62, 99);
+    border-style:ridge ;
+    border-radius:20%;
+    cursor: pointer;
     margin-right: 2%;
-    border-top:2px solid #888888;
+    /* border-top:2px solid #888888; */
     text-align:center;
     font-size:15px;
-    /* font-weight:bold; */
+    font-weight:bold;
     color: rgb(230, 214, 214);
-    text-decoration:none;
     
 }
 header img{
@@ -121,6 +118,7 @@ form button{
     cursor: pointer;
     background-image: url("../images/icons8-down-arrow-24\ \(1\).png");
     /* background-color: white; */
+    /* transform: rotate(180deg); */
 }
 #close1,#close2{
     cursor: pointer;
@@ -144,6 +142,7 @@ form button{
     margin-bottom:1%;
 }
 .content .value-questions ul{
+    float: left;
     font-size:large;
     width:80%;
     margin-left:10%;

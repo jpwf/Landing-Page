@@ -14,18 +14,23 @@ const btn_close2 = document.getElementById("close2")
 let instagramB = document.getElementById("instagram")
 
 Q1_button.addEventListener("click", () =>{
-    hide1.classList.remove("first-question")
-    hide2.classList.add("second-question")
-    btn_close1.addEventListener("click", ()=>{
+    hide1.classList.remove("first-question");
+    hide2.classList.add("second-question");
+    Q2_button.style.cssText ='transform: rotate(initial);';
+    Q1_button.style.cssText ='transform: rotate(180deg);';    
+    btn_close1.addEventListener("click", () => {
         hide1.classList.add("first-question")
     })
 })
 Q2_button.addEventListener("click", ()=>{
     hide2.classList.remove("second-question")
     hide1.classList.add("first-question")
-    btn_close2.addEventListener("click", ()=>{
-        hide2.classList.add("second-question")
+    Q2_button.style.cssText ='transform: rotate(180deg);';
+    Q1_button.style.cssText ='transform: rotate(initial);';
+    btn_close2.addEventListener("click", () => {
+        hide12.classList.add("second-question")
     })
+
 })
 
 subscribeB.addEventListener("click", () =>{
