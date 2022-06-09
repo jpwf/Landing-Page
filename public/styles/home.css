@@ -131,9 +131,14 @@ form button{
     /* transform: rotate(180deg); */
 }
 #close1,#close2{
+    /* width: 24px; */
     cursor: pointer;
     display: block;
     margin: 1% 1%;
+    border: 1% black solid;
+    color: black;
+    /* background-color:black; */
+    /* border-radius: 50%; */
 }
 .first-question, .second-question{
     display:none;
