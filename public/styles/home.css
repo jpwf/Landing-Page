@@ -34,6 +34,8 @@ header{
     font-size:15px;
     font-weight:bold;
     color: rgb(230, 214, 214);
+    font-weight: bold;
+    
     
 }
 header .logo{
@@ -118,7 +120,7 @@ form button{
 }
 #Q1, #Q2{
     width: 24px;
-    height:24px;
+    height:22px;
     display:inline-block;
     /* flex-direction: column; */
     /* border-radius:40%; */
